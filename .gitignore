@@ -1,0 +1,78 @@
+﻿# ============================================================
+# MycoSense Data Analysis
+# ============================================================
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling / test cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Raw research data
+# Do not commit original experimental datasets
+# ============================================================
+
+data/raw/
+
+# ============================================================
+# Generated processed datasets
+# Reproducible from analysis scripts
+# ============================================================
+
+data/processed/
+
+# ============================================================
+# Generated analysis outputs
+# Tables and figures can be regenerated
+# ============================================================
+
+outputs/
+
+# ============================================================
+# Environment variables / secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# ============================================================
+# Temporary / backup files
+# ============================================================
+
+*.tmp
+*.temp
+*.log
+~$*
+*.bak
+
+# ============================================================
+# Generated reports
+# ============================================================
+
+*.docx
+*.pdf
